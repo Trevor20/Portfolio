@@ -4691,10 +4691,11 @@ input, select, textarea {
 
 /* Force all project images to the same height and aspect ratio */
 .posts article .image.fit img {
-    height: 300px; /* Adjust this number to your liking */
+    height: 350px; /* Adjust this number to your liking */
     object-fit: cover;
     object-position: top;
 }
+
 
 
 
