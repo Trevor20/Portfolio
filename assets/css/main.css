@@ -2622,7 +2622,6 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 		    margin: 2.5rem 0;
-		/*	margin: 0 0 2rem 2rem */
 			width: 100%;
 		}
 
@@ -2632,12 +2631,6 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
-/* Changed this
-				height: 250px;
-				margin: 0 0 2rem 2rem
-				display: block;
-				object-fit:cover;
-/* Changed this */
 			}
 
 		.image.main {
@@ -4695,14 +4688,15 @@ input, select, textarea {
 		}
 
 	}
-/*
-/* Force all project images to the same height and aspect ratio
+
+/* Force all project images to the same height and aspect ratio */
 .posts article .image.fit img {
-    height: 300px; /* Adjust this number to your liking
+    height: 300px; /* Adjust this number to your liking */
     object-fit: cover;
     object-position: top;
 }
-*/
+
+
 
 
 
