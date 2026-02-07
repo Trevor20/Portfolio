@@ -2621,7 +2621,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+		/*	margin: 2.5rem 0; */
+			margin: 0 0 2rem 2rem;
 			width: 100%;
 		}
 
@@ -2632,7 +2633,8 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 /* Changed this */
-				height: auto;  
+				height: auto;
+				margin: 0 0 2rem 2rem
 				display: block;
 				object-fit:cover;
 /* Changed this */
@@ -4693,3 +4695,4 @@ input, select, textarea {
 		}
 
 	}
+
